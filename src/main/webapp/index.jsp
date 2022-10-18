@@ -10,8 +10,10 @@
 <%@ include file="head_footer/csheader.jsp" %>
 <%@ include file="head_footer/csmainheader.jsp" %>
 <%@ include file="head_footer/csfooter.jsp" %>
-<body class="design">
-
-</body>
 </head>
+<body>
+<div class="cyber_img">
+	<img src="images/picture1.jpg" width= 1500 height=500>
+</div>
+</body>
 </html>

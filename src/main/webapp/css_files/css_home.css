@@ -31,7 +31,7 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	position: relative;
-	padding: 1.8rem 2rem;
+	padding: 1.7rem 1rem;
 	cursor: pointer;
 }
 
@@ -39,7 +39,7 @@
 {
 	list-style: none;
 	text-decoration: none;
-	color: white;
+	color: #c061cb;
 	font-weight: bold;
 }
 

@@ -4,27 +4,29 @@
 html
 {
 	overflow-x: hidden;
-	background-image:url(../images/images1.jpg);
+}
+.nav
+{
+	background-image:url(../images/picture.jpg); 
 	background-size: 100% auto;
 }
-
 .box1
 {
-	font-size: 24px;
+	font-size: 34px;
 	color: white;
 	text-align: center;
 }
 
 .box2
 {
-	font-size: 20px;
+	font-size: 26px;
 	color:white;
 	text-align: center;	
 }
 
 .box3
 {
-	font-size: 16px;
+	font-size: 20px;
 	color:white;
 	text-align: center;	
 }

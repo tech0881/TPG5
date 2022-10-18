@@ -30,9 +30,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/main/webapp/images/images1.jpg</name>
+			<name>src/main/webapp/images/cyber.jpg</name>
 			<type>1</type>
-			<location>/home/jroscoe/Downloads/images1.jpg</location>
+			<location>/home/jroscoe/Downloads/cyber.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/picture.jpg</name>
+			<type>1</type>
+			<location>/home/jroscoe/Downloads/picture.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/picture1.jpg</name>
+			<type>1</type>
+			<location>/home/jroscoe/Downloads/picture1.jpg</location>
 		</link>
 	</linkedResources>
 </projectDescription>
