@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="cyber_img">
-	<img src="images/picture1.jpg" width= 1500 height=500>
+	<img src="images/picture1.jpg" width= 2000 height=800>
 </div>
 </body>
 </html>
