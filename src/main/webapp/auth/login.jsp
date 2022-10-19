@@ -6,19 +6,17 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/login.css">
-
-	
 <title>User Authentication</title>
 </head>
 
 <body class="body">
-	<div class= "memberlogin"><h1>Member Login</h1></div>
+	<div class= "memberlogin"><h1>Login</h1></div>
 	
 
 <%@ include file="../head_footer/csmainheader.jsp" %>
 
 	<div>
-		<form action="../memberLogin" method=post>>
+		<form action="../memberLogin" method=post>
 		<table>
 			<tr>
 				<td>Enter Your Username:</td>

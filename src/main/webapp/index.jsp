@@ -12,7 +12,7 @@
 <%@ include file="head_footer/csfooter.jsp" %>
 </head>
 <body>
-<div class="cyber_img">
+<div>
 	<img src="images/picture1.jpg" width= 2000 height=800>
 </div>
 </body>
