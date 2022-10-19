@@ -32,12 +32,12 @@
 		<link>
 			<name>src/main/webapp/images/picture.jpg</name>
 			<type>1</type>
-			<location>/home/jroscoe/eclipse-workspace/TPG5/src/main/webapp/images/picture.jpg</location>
+			<location>D:/project_com_engi/workspace/TPG5/src/main/webapp/images/picture.jpg</location>
 		</link>
 		<link>
 			<name>src/main/webapp/images/picture1.jpg</name>
 			<type>1</type>
-			<location>/home/jroscoe/eclipse-workspace/TPG5/src/main/webapp/images/picture1.jpg</location>
+			<location>D:/project_com_engi/workspace/TPG5/src/main/webapp/images/picture1.jpg</location>
 		</link>
 	</linkedResources>
 </projectDescription>
