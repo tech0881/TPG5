@@ -9,6 +9,7 @@ html
 {
 	background-image:url(../images/picture.jpg); 
 	background-size: 100% auto;
+	padding: 1rem;
 }
 .box1
 {
