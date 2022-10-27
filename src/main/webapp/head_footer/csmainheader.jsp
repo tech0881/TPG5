@@ -17,7 +17,7 @@
 				</ul>
 			</li>
 			<li class="nav_ul_list_li"><a href="" title="Search">Search</a></li>
-			<li class="nav_ul_list_li"><a href="" title="Contact">Contact</a></li>
+			<li class="nav_ul_list_li"><a href="site_pages/contact.jsp" title="Contact">Contact</a></li>
 			<li class="nav_ul_list_li"><a href="site_pages/archive_attacks.jsp" title="DDoS Attacks">DDoS Attacks</a></li>
 			<li class="nav_ul_list_li"><a href="site_pages/aboutus.jsp" title="About Us">About Us</a></li>
 			<li class="nav_ul_list_li"><a href="site_pages/help.jsp" title="Help">Help</a></li>
