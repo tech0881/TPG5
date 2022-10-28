@@ -14,6 +14,7 @@
 				<ul class="nav_ul_list_li_ul">
 					<li><a href="auth/login.jsp">Login</a></li>
 					<li><a href="auth/register.jsp">Register</a></li>
+					<li><a href="auth/login.jsp">Logout</a></li>
 				</ul>
 			</li>
 			<li class="nav_ul_list_li"><a href="" title="Search">Search</a></li>
