@@ -49,10 +49,19 @@
       
 		      <select name="user_type">
          <option value="user">standard</option>
-         <option value="admin">power users</option>
-         <option value="admin">manager</option>
+         <option value="power">power users</option>
+         <option value="manager">manager</option>
          <option value="admin">administrator</option>
       </select>
+      
+      <select name="seq_question">
+         <option value="1">What are your last four digits of phone number?</option>
+         <option value="2">What is your name of your first pet?</option>
+         <option value="3">What middle school did you go to?</option>
+         <option value="4">What is your mothers birthday?</option>
+         
+      </select>
+      <input type="text" name="question" required placeholder="enter your security question">
       <input type="submit" name="submit" value="login now" class="form-btn">
       <p>don't have an account? <a href="register.jsp">register now</a></p>
       
