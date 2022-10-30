@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/box.css">
-   <title>Login form</title>
+   <title>Login Form</title>
 
    <!-- custom css file link  -->
    

@@ -97,3 +97,44 @@
 {
 	background-color: navy;
 }
+
+
+
+.nav_ul_list_li_ul_
+{
+	position: absolute;
+	top:4rem;
+	left:-1rem;
+	box-shadow: 0 0 10px blue;
+	background-color: black;
+	border-radius: 0.2rem;
+	width:20rem;
+	padding:1rem;
+	display:flex;
+	flex-direction:column;
+	gap:0.5rem;
+	opacity:0;
+	visibility:hidden;
+	transition: opacity 200ms ease-in-out;
+}
+
+.nav_ul_list_li_ul_ li
+{
+	list-style: none;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.2rem;
+}
+
+.nav_ul_list_li_ul_ li a
+{
+	list-style: none;
+	padding:0.5rem 1rem;
+	border-radius:0.2rem;
+	transition: background-color 200ms ease-in-out;
+}
+
+.nav_ul_list_li_ul_ li:hover, .nav_ul_list_li_ul_ li
+{
+	background-color: navy;
+}

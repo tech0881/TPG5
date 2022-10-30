@@ -11,6 +11,10 @@ html
 	background-size: 100% auto; 
 	padding: 1rem;
 }
+.search-box 
+{
+    float: right;
+}
 .box1
 {
 	font-size: 34px;
