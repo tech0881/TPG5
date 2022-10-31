@@ -1,6 +1,10 @@
 @charset "UTF-8";
-.body1
+.about
 {
 	font-size: 24px;
-	text-align:center;	
+	text-align:center;
+}
+.aboutus
+{
+	padding: 1rem;
 }
