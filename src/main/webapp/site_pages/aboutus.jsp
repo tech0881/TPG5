@@ -56,7 +56,7 @@ tr:nth-child(even) {
     <td>Full-Stack Developer, Git Repo Manager</td>
     <td>Computer Science</td>
     <td>Barry University</td>
-    <td></td>
+    <td>Senior</td>
   </tr>
   
   <tr>
