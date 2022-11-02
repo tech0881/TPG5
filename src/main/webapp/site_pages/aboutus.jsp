@@ -64,7 +64,7 @@ tr:nth-child(even) {
     <td>Back-End Developer, Database Manager</td>
     <td>Computer Information Science</td>
     <td>Barry University</td>
-    <td></td>
+    <td>Senior/td>
   </tr>
   
   <tr>
