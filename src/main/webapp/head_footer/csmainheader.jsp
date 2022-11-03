@@ -17,7 +17,7 @@
 					<li><a href="auth/login.jsp">Logout</a></li>
 				</ul>
 			</li>		
-
+			<li class="nav_ul_list_li"><a href="http://www.google.com" title="Search">Search</a></li>
 			<li class="nav_ul_list_li"><a href="site_pages/contact.jsp" title="Contact">Contact</a></li>
 			<li class="nav_ul_list_li"><a href="site_pages/archive_attacks.jsp" title="DDoS Attacks">DDoS Attacks</a>
 				<ul class="nav_ul_list_li_ul_">
@@ -29,12 +29,6 @@
 			<li class="nav_ul_list_li"><a href="site_pages/aboutus.jsp" title="About Us">About Us</a></li>
 			<li class="nav_ul_list_li"><a href="site_pages/help.jsp" title="Help">Help</a></li>
 			
-	<div class="search-box">
-        <form action="https://www.google.com" method="get">
-            <input type="text" name="search" maxlength="60" placeholder="Search..." required>
-            <button type="submit"><i class="SearchButton"></i></button>
-        </form>
-     </div>
 		</ul>
 	</nav>
 </body>
