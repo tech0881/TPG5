@@ -15,8 +15,9 @@
 
    <form action="" method="post">
       <h3>register now</h3>
-      
-      <input type="text" name="name" required placeholder="enter your name">
+      <input type="text" name="fname" required placeholder="enter your firstname">
+      <input type="text" name="lname" required placeholder="enter your lastname">
+      <input type="text" name="username" required placeholder="enter your username">
       
       <input type="password" name="password" required placeholder="enter your password">
       <input type="password" name="cpassword" required placeholder="confirm your password">
