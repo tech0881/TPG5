@@ -6,7 +6,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.ServletException;
 import java.io.IOException;
 
-// Setters and Getters for Registeration page
+// Setters and Getters for Registration page
 public class mRegistration {
     private String fname;
     private String mname;

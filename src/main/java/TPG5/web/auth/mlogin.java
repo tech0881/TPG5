@@ -2,7 +2,8 @@ package TPG5.web.auth;
 import java.io.IOException;
 import java.util.ArrayList;
 import TPG5.web.model.mRegistration;
-
+import TPG5.web.dataObject.dataObject;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
@@ -10,12 +11,12 @@ import jakarta.servlet.http.HttpSession;
 public class mlogin extends HttpServlet {
 	mRegistration mLoginFields = new mRegistration();
 	private static final long serialVersionUID = 1L;
-	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletExpception, IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		String username= req.getParameter("txtusr_name");
 		String password= req.getParameter("txtusr_pwd");
-		mlogin.setusrname(username);
-		mlogin.setpassword(password);
-		ArrayList user_login = new dataObject().member_login(uname,pwd);
+		mLoginFields.setusrname(username);
+		mLoginFields.setpassword(password);
+		ArrayList user_login = new dataObject().member_register(username, password);
 		if(user_login.size()>0)
 		{
 			String user_fname = user_login.get(0).toString();
@@ -33,8 +34,6 @@ public class mlogin extends HttpServlet {
 		else
 		{
 			res.sendRedirect("auth/login.jsp");
-
-			
 		}
 	}
 }
