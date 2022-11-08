@@ -18,6 +18,7 @@
       <input type="text" name="fname" required placeholder="enter your firstname">
       <input type="text" name="lname" required placeholder="enter your lastname">
       <input type="text" name="username" required placeholder="enter your username">
+      <input type="text" name="email" required placeholder="enter your email">
       
       <input type="password" name="password" required placeholder="enter your password">
       <input type="password" name="cpassword" required placeholder="confirm your password">
