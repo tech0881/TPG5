@@ -17,7 +17,7 @@ public class mRegistration {
     private String email;
     private String useraccess;
     private String oboSq1;
-    private String oboSql2;
+    private String oboSq2;
     private String txtans1;
     private String txtans2;
 
@@ -75,11 +75,11 @@ public class mRegistration {
     public void setoboSq1(String oboSq1) {
         this.oboSq1 = oboSq1;
     }
-    public String getoboSql2() {
-        return oboSql2;
+    public String getoboSq2() {
+        return oboSq2;
     }
-    public void setoboSql2(String oboSql2) {
-        this.oboSql2 = oboSql2;
+    public void setoboSq2(String oboSq2) {
+        this.oboSq2 = oboSq2;
     }
     public String gettxtans1() {
         return txtans1;
@@ -97,6 +97,6 @@ public class mRegistration {
     public String toString() {
         return "mRegistration (fname=" + fname + ", mname=" + mname + ", lname=" + lname + ", usrname=" 
         + usrname + ", password=" + password + ", rootpass=" + rootpass + ", email=" + email + ", useraccess=" 
-        + useraccess + ", oboSq1=" + oboSq1 + ", oboSql2=" + oboSql2 + ", txtans1=" + txtans1 + ", txtans2=" + txtans2 + ")";
+        + useraccess + ", oboSq1=" + oboSq1 + ", oboSq2=" + oboSq2 + ", txtans1=" + txtans1 + ", txtans2=" + txtans2 + ")";
     }
 }
