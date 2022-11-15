@@ -127,7 +127,7 @@ public class dataObject {
             }
         }            
         catch(Exception e) {
-                System.out.printIn(e);
+                System.out.println(e);
                 System.out.println("Wrong");
             }
 
@@ -149,7 +149,9 @@ public class dataObject {
                 String userp = rs.getString("u_pwd").toString();
                 if (usern.equals(username) || usere.equals(username){
                    if(userp.equals(hash_val_pwd)) {
-
+                        userProfile.add(rs.getString("f_name").toString());
+                        userProfile.add(rs.getString("l_name").toString());
+                        userProfile.add(rs.getString("u_name").toString)();
                    }
                 }
                 else {
@@ -158,5 +160,11 @@ public class dataObject {
                 
             }
         }
+        catch(Exception e) {
+            System.out.println(e);
+        } 
+        return userProfile;   
     }
+    
+
 }
