@@ -12,7 +12,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import TPG5.web.scrape.dbConnect;
-import TPG5.web.scrape.scrapedataObject;
+import jakarta.servlet.RequestDispather;
+//import TPG5.web.scrape.scrapedataObject;
 import TPG5.web.model.mRegistration;
 
 public class dataObject {
@@ -41,7 +42,7 @@ public class dataObject {
         String objTxtans2 = mR.gettxtans2(); 
 
         int reference_id = ThreadLocalRandom.current().nextInt();
-        LocalDate current_date = new LocalDate.now();
+        LocalDate current_date = LocalDate.now();
         String strcurrent_date = current_date.toString();
 
         LocalDate enddt = current_date.plusDays(90);
@@ -53,7 +54,7 @@ public class dataObject {
         
         String [] acc_status = new String[] {"Ad_active","active","inactive","disable","Deleted"};
 
-        scrapedataObject attack = new scrapedataObject();
+        //scrapedataObject attack = new scrapedataObject();
         attack.get_web_data();
         int result = 0;
 
@@ -74,7 +75,7 @@ public class dataObject {
                 {
                     usrExist = true;
                     RequestDispather rd = new RequestDispather();
-                    rd.forward(request, response);
+                    rd.forward(req, resp);
                     break;
                 }
             }
@@ -134,8 +135,8 @@ public class dataObject {
         return mR;
     }
     
-    public ArrayList member_login(String username, String password) {
-        ArrayList userProfile = new ArrayList();
+    public ArrayList <String> member_login(String username, String password) {
+        ArrayList <String> userProfile = new ArrayList();
         try {
             String hash_password = dbc.getSHA_pwd(password);
             stmt = conn.createStatement();
