@@ -1,11 +1,5 @@
 package TPG5.web.model;
 
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.ServletException;
-import java.io.IOException;
-
 // Setters and Getters for Registration page
 public class mRegistration {
     private String fname;
