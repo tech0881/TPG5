@@ -15,8 +15,7 @@
 <body>
 <%
 if(session.getAttribute("usr_laccess")==null)
-	(response.sendRedirect("../auth/login.jsp");
-	)
+	response.sendRedirect("../auth/login.jsp");
 	
 
 %>
