@@ -39,4 +39,24 @@
     <servlet-name>DBConnnection</servlet-name>
     <url-pattern>/DBConnnection</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>mlogin</display-name>
+    <servlet-name>mlogin</servlet-name>
+    <servlet-class>TPG5.web.auth.mloginhttp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mlogin</servlet-name>
+    <url-pattern>/mlogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>mlogout</display-name>
+    <servlet-name>mlogout</servlet-name>
+    <servlet-class>TPG5.web.auth.mlogouthttp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mlogout</servlet-name>
+    <url-pattern>/mlogout</url-pattern>
+  </servlet-mapping>
 </web-app>

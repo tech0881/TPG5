@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import TPG5.web.scrape.dbConnect;
-import jakarta.servlet.RequestDispather;
+import jakarta.servlet.RequestDispatcher;
 //import TPG5.web.scrape.scrapedataObject;
 import TPG5.web.model.mRegistration;
 
@@ -55,7 +55,7 @@ public class dataObject {
         String [] acc_status = new String[] {"Ad_active","active","inactive","disable","Deleted"};
 
         //scrapedataObject attack = new scrapedataObject();
-        attack.get_web_data();
+        //attack.get_web_data();
         int result = 0;
 
         int n_of_u_found = 0;
@@ -74,7 +74,7 @@ public class dataObject {
                 if(rs.getString("u_name").equals(usrname))
                 {
                     usrExist = true;
-                    RequestDispather rd = new RequestDispather();
+                    RequestDispatcher rd = new RequestDispatcher();
                     rd.forward(req, resp);
                     break;
                 }
@@ -148,15 +148,12 @@ public class dataObject {
                 String usern = rs.getString("u_name").toString();
                 String usere = rs.getString("u_email").toString();
                 String userp = rs.getString("u_pwd").toString();
-                if (usern.equals(username) || usere.equals(username){
-                   if(userp.equals(hash_val_pwd)) {
+                if (usern.equals(username) || usere.equals(username)){
+                   if(userp.equals(hash_password)) {
                         userProfile.add(rs.getString("f_name").toString());
                         userProfile.add(rs.getString("l_name").toString());
-                        userProfile.add(rs.getString("u_name").toString)();
+                        userProfile.add(rs.getString("u_name").toString());
                    }
-                }
-                else {
-                    
                 }
                 
             }
