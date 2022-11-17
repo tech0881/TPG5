@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Group Project</title>
+
 <link rel="stylesheet" href="css_files\css_homepage.css">
 <link rel="stylesheet" href="css_files\css_home.css">
 <%@ include file="head_footer/csheader.jsp" %>
