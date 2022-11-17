@@ -11,7 +11,12 @@
 <%@ include file="head_footer/csmainheader.jsp" %>
 </head>
 
-<img src="images/picture1.jpg" width=2000 height=800>
+<body><img src="images/picture1.jpg"></body>
+
+
 <%@ include file="head_footer/csfooter.jsp" %>
+
+
+
 
 </html>
