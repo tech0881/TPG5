@@ -2,3 +2,4 @@
 .project
 .settings/org.eclipse.wst.common.project.facet.core.xml
 src/main/webapp/images/.settings/org.eclipse.core.resources.prefs
+.classpath
