@@ -6,8 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css_files\footer.css">
 </head>
-<br>
-<body class="footer">
+<body>
 	<h3 class="h3">For More Information:</h3>
 	<br>
 		<a class="a" href="https://blog.checkpoint.com/2022/10/26/third-quarter-of-2022-reveals-increase-in-cyberattacks/" target="_blank">Check Point Research</a>
