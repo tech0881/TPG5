@@ -136,7 +136,7 @@ public class dataObject {
     }
     
     public ArrayList <String> member_login(String username, String password) {
-        ArrayList <String> userProfile = new ArrayList<String>();
+        ArrayList <String> userProfile = new ArrayList<>();
         try {
             String hash_password = dbc.getSHA_pwd(password);
             stmt = conn.createStatement();
