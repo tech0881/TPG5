@@ -51,7 +51,7 @@
 
    <div class="form-container">
    
-   <form action="" method="post">
+   <form action="mlogin" method="post">
       <h3>login now</h3>
       
       <?jsp

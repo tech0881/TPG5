@@ -10,9 +10,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
-public class mlogin extends HttpServlet {
-	mRegistration mLoginFields = new mRegistration();
+public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	mRegistration mLoginFields = new mRegistration();
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		String username= req.getParameter("username");
 		String password= req.getParameter("password");

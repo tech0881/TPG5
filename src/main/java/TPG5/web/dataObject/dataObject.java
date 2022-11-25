@@ -11,7 +11,7 @@ import java.time.LocalDate;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import TPG5.web.scrape.dbConnect;
+import TPG5.web.dbConnect;
 import jakarta.servlet.RequestDispatcher;
 //import TPG5.web.scrape.scrapedataObject;
 import TPG5.web.model.mRegistration;

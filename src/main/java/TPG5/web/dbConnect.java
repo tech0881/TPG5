@@ -1,4 +1,4 @@
-package TPG5.web.scrape;
+package TPG5.web;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.MessageDigest;
@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class dbConnect {
-	private String str_connection = "jdbc:mysql://localhost:3306/TPG5"; // points to database location
+	private String str_connection = "jdbc:mysql://localhost:3306/tpg5"; // points to database location
 	private String userdb; // MySQL User
 	private String passworddb; // MySQL Password
 	Connection conn = null;
