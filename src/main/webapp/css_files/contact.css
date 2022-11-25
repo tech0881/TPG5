@@ -1,6 +1,18 @@
 @charset "UTF-8";
+.body0
+{
+	background-color: #c0bfbc;
+}
 .body1
 {
 	font-size: 24px;
 	text-align:center;	
+	padding-top: 1rem;
+}
+
+.body2
+{
+	font-size: 24px;
+	text-align:center;	
+	padding-top: 1rem;
 }

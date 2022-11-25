@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="../css_files/help.css">
 <%@ include file="../head_footer/csmainheader.jsp" %>
 </head>
-
+<body class="help0">
 <div class="help"><h1>Help</h1></div>
-
+</body>
 
 </html>

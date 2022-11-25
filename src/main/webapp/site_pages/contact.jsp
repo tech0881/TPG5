@@ -11,14 +11,14 @@
 <%@ include file="../head_footer/csmainheader.jsp" %>
 
 </head>
-<body>
+<body class="body0">
 
-	<div class="body1">
-	<h1>Contact</h1></div>
-<br> 
-	<div class="body1">(874)-554-5555 </div>
-	<div class="body1">TBG5@gmail.com </div>
-	<p style=text-align:center> <img src="../images/TPG5.jpg" width=300 height=400></p>
+	<div class="body1"><h1>Contact</h1></div>
+
+	<div class="body2">(874)-554-5555 </div>
+	<div class="body2">TPG5@gmail.com </div>
+	<br>
+	<p style=text-align:center> <img src="../images/TPG5.jpg" width=450 height=450></p>
 	
 	
 </body>
