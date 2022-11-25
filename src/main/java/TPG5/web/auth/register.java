@@ -16,10 +16,11 @@ public class register extends HttpServlet {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	String email, fname, lname, uname, pwd, rpwd, uaccess, q1, ans1, q2, ans2;
+	String email, fname, mname, lname, uname, pwd, rpwd, uaccess, q1, ans1, q2, ans2;
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		email = request.getParameter("email");
 		fname = request.getParameter("fname");
+		mname = request.getParameter("mname");
 		lname = request.getParameter("lname");
 		uname = request.getParameter("username");
 		pwd = request.getParameter("password");
@@ -45,6 +46,6 @@ public class register extends HttpServlet {
 		set.setttxtans2(ans2);
 
 		System.out.println("Works!");
-		mRegistration set2 = data.member_register(fname, fname, lname, uname, lname, fname, email, uaccess, q1, q2, ans1, ans2);
+		mRegistration set2 = data.member_register(fname, mname, lname, uname, lname, fname, email, uaccess, q1, q2, ans1, ans2);
 	}
 }
