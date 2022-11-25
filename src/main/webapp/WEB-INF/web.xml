@@ -51,13 +51,13 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>mlogout</display-name>
-    <servlet-name>mlogout</servlet-name>
-    <servlet-class>TPG5.web.auth.mlogout</servlet-class>
+    <display-name>Logout</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>TPG5.web.auth.Logout</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>mlogout</servlet-name>
-    <url-pattern>/mlogout</url-pattern>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>

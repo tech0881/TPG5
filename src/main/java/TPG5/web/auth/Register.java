@@ -41,6 +41,6 @@ public class Register extends HttpServlet {
 		set.setttxtans2(ans2);
 
 		System.out.println("Works!");
-		mRegistration set2 = data.member_register(fname, mname, lname, uname, lname, fname, email, uaccess, q1, q2, ans1, ans2);
+		mRegistration set2 = data.member_register(fname, mname, lname, uname, pwd, rpwd, email, uaccess, q1, q2, ans1, ans2);
 	}
 }
