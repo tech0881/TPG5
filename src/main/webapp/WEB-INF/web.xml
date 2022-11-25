@@ -41,13 +41,13 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>mlogin</display-name>
-    <servlet-name>mlogin</servlet-name>
-    <servlet-class>TPG5.web.auth.mlogin</servlet-class>
+    <display-name>Login</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>TPG5.web.auth.Login</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>mlogin</servlet-name>
-    <url-pattern>/mlogin</url-pattern>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -61,12 +61,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>register</display-name>
-    <servlet-name>register</servlet-name>
-    <servlet-class>TPG5.web.auth.register</servlet-class>
+    <display-name>Register</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>TPG5.web.auth.Register</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>register</servlet-name>
-    <url-pattern>/register</url-pattern>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
   </servlet-mapping>
 </web-app>
