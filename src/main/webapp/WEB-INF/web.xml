@@ -43,7 +43,7 @@
     <description></description>
     <display-name>mlogin</display-name>
     <servlet-name>mlogin</servlet-name>
-    <servlet-class>TPG5.web.auth.mloginhttp</servlet-class>
+    <servlet-class>TPG5.web.auth.mlogin</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>mlogin</servlet-name>
@@ -53,10 +53,20 @@
     <description></description>
     <display-name>mlogout</display-name>
     <servlet-name>mlogout</servlet-name>
-    <servlet-class>TPG5.web.auth.mlogouthttp</servlet-class>
+    <servlet-class>TPG5.web.auth.mlogout</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>mlogout</servlet-name>
     <url-pattern>/mlogout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>register</display-name>
+    <servlet-name>register</servlet-name>
+    <servlet-class>TPG5.web.auth.register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
   </servlet-mapping>
 </web-app>

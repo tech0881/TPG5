@@ -9,14 +9,11 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import TPG5.web.dbConnect;
 
 public class mlogin extends HttpServlet {
-	mRegistration mLoginFields = new mRegistration();
 	private static final long serialVersionUID = 1L;
+	mRegistration mLoginFields = new mRegistration();
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		dbConnect a = new dbConnect("tpg5"); 
-		a.str_connection();
 		String username= req.getParameter("username");
 		String password= req.getParameter("password");
 		mLoginFields.setusrname(username);

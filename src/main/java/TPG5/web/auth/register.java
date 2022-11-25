@@ -10,12 +10,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class register extends HttpServlet {
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
-	
 	String email, fname, mname, lname, uname, pwd, rpwd, uaccess, q1, ans1, q2, ans2;
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		email = request.getParameter("email");
