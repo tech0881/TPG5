@@ -30,7 +30,7 @@
 	</nav>
 <div class="form-container">
 
-   <form action="register" method="post">
+   <form action="Register" method="post">
       <h3>register now</h3>
       <input type="text" name="fname" required placeholder="enter your firstname">
       <input type="text" name="lname" required placeholder="enter your lastname">
