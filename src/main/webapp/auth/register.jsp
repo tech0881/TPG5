@@ -28,20 +28,34 @@
 			<li class="nav_ul_list_li"><a href="" title="Help">Help</a></li>
 		</ul>
 	</nav>
+	
 <div class="form-container">
 
    <form action="Register" method="post">
+  
       <h3>register now</h3>
-      <input type="text" name="fname" required placeholder="enter your firstname">
+       <script type="text/javascript">
+       var check = function() {
+    	   if (document.getElementById('password').value ==
+    	     document.getElementById('cpassword').value) {
+    	     document.getElementById('message').style.color = 'green';
+    	     document.getElementById('message').innerHTML = 'matching';
+    	   } else {
+    	     document.getElementById('message').style.color = 'red';
+    	     document.getElementById('message').innerHTML = 'not matching';
+    	   }
+    	 }
+</script>
+      
+       <input type="text" name="fname" required placeholder="enter your firstname">
       <input type="text" name="lname" required placeholder="enter your lastname">
       <input type="text" name="username" required placeholder="enter your username">
       <input type="text" name="email" required placeholder="enter your email">
+      <input type="password" name="password" id="password" required placeholder="enter your password" onkeyup='check();'/>
+      <input type="password" name="cpassword" id="cpassword" placeholder="confirm your password" onkeyup='check();'/><span id='message'></span>
       
-      <input type="password" name="password" required placeholder="enter your password">
-      <input type="password" name="cpassword" required placeholder="confirm your password">
  		
-      <input type="text" name="username" required placeholder="enter your username">
-      <input type="password" name="password" required placeholder="enter your password">
+ 
       
 	<select name="user_type">
          <option value="user">standard</option>
@@ -53,8 +67,7 @@
       <select class="ques">
          <option value="1">What are your last four digits of phone number?</option>
          <option value="2">What is your name of your first pet?</option>
-         <option value="3">What middle school did you go to?</option>
-         <option value="4">What is your mothers birthday?</option>
+       
          
       </select>
       
@@ -64,6 +77,7 @@
         
       <input type="submit" name="submit" value="register now" class="form-btn">
       <p>Already have an account? <a href="login.jsp">login now</a></p>
+      
       
    </form>
 </div>

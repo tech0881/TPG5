@@ -89,8 +89,7 @@ if(answer.value == 'admin') {
       <select id="seq_question" class="ques">
          <option value="1">What are your last four digits of phone number?</option>
          <option value="2">What is your name of your first pet?</option>
-         <option value="3">What middle school did you go to?</option>
-         <option value="4">What is your mothers birthday?</option>
+       
          
       </select>
       
@@ -101,6 +100,8 @@ if(answer.value == 'admin') {
       <input type="submit" name="submit" value="login now" class="form-btn">
       <p>don't have an account? <a href="register.jsp">register now</a></p>
     <p>Forgot password? <a href="forgotpwd.jsp">password?</a></p>
+        
+    
 	</form>
 	</div>
 	
