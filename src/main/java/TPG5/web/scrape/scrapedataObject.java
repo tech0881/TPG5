@@ -152,4 +152,29 @@ public class scrapedataObject {
 		}
 		return ddosList;
 	}
+	public void ddod_archive(ArrayList<scrape_wcontent> ddosList) {
+		String qry_webdt = "SELECT * FROM cyber_archive";
+		try {
+			stmt = connection.createStatement();
+			rs = stmt.executeQuery(qry_webdt);
+			while(rs.next()) {
+				String m_y = rs.getString("month_year").toString();
+				
+			}
+		}
+		catch(Exception e) {
+			System.out.println(e);
+			System.out.println("Error");
+		}
+		for(int i=0; i<ddosList.size; i++) {
+			scrape_wcontent element = ddosList.get(i);
+			element.getSrcCountry();
+			element.getSrcNoOfAttack();
+			element.getSrc_percent();
+			element.getDesCountry();
+			element.getDesNoOfAttack();
+			element.getDes_percent();
+			element.getNyear();
+		}
+	}
 }

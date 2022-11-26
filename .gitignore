@@ -3,6 +3,3 @@
 .settings/org.eclipse.wst.common.project.facet.core.xml
 src/main/webapp/images/.settings/org.eclipse.core.resources.prefs
 .classpath
-src/main/webapp/auth/login.jsp
-src/main/webapp/auth/register.jsp
-src/main/webapp/css_files/contact.css
