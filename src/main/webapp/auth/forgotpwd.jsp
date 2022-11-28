@@ -28,6 +28,16 @@
 
       
       <input type="submit" name="submit" value="login now" class="form-btn">
+      <script type="text/javascript">
+        function checkMatch(fieldConfirmPassword) {
+            if (fieldConfirmPassword.value != $("#newPassword").val()) {
+                fieldConfirmPassword.setCustomValidity("Passwords do not match!");
+            } else {
+                fieldConfirmPassword.setCustomValidity("");
+            }
+        }
+        
+</script>
 <%
 String username =request.getParameter("username");
 String password = request.getParameter("password");
@@ -35,7 +45,7 @@ out.println("<b>"+"</br>"+"Password is = "+password+"</b>");
 %>       
 </form>
 <div class="back-btn">
- <a href="http://localhost:8081/TPG5/auth/login.jsp">
+ <a href="http://localhost:8080/TPG5/auth/login.jsp">
       <button class ="back-btn">Back</button>
       </a>  
 </div> 

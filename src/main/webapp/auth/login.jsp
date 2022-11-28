@@ -30,13 +30,13 @@
 <body>
 <nav class="nav_menu">
 		<ul class="nav_ul_list">
-			<li class="nav_ul_list_li"><a href="http://localhost:8081/TPG5/" title="Home page">Home</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/" title="Home page">Home</a></li>
 			
 			<li class="nav_ul_list_li"><a href="" title="Members">Members</a>
 				<ul class="nav_ul_list_li_ul">
-					<li><a href="http://localhost:8081/TPG5/auth/login.jsp">Login</a></li>
-					<li><a href="http://localhost:8081/TPG5/auth/register.jsp">Register</a></li>
-					<li><a href="http://localhost:8081/TPG5/auth/login.jsp">Logout</a></li>
+					<li><a href="http://localhost:8080/TPG5/auth/login.jsp">Login</a></li>
+					<li><a href="http://localhost:8080/TPG5/auth/register.jsp">Register</a></li>
+					<li><a href="http://localhost:8080/TPG5/auth/login.jsp">Logout</a></li>
 				</ul>
 			</li>
 			<li class="nav_ul_list_li"><a href="http://www.google.com" title="Search">Search</a></li>

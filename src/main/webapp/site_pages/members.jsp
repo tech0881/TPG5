@@ -29,6 +29,54 @@ if(session.getAttribute("usr_laccess")==null)
 		<h2>Members Interactive Page</h2>
 	</div>
 <%@ include file="../head_footer/csfooter.jsp" %>
+<script type="text/javascript">
+if(userValidate.equals("Admin"))
+{
 
+    HttpSession session = request.getSession(); //Creating a session
+    session.setAttribute("Admin", userName); //setting session attribute
+    request.setAttribute("userName", userName);
+    request.getRequestDispatcher("users.jsp").forward(request, response);
+}
+else if(userValidate.equals("Manager"))
+{
+   
+
+    HttpSession session = request.getSession();
+    session.setAttribute("Manager", userName);
+    request.setAttribute("userName", userName);
+
+    request.getRequestDispatcher("users.jsp").forward(request, response);
+}
+else if(userValidate.equals("Power User"))
+{
+   
+
+    HttpSession session = request.getSession();
+    session.setAttribute("Power User", userName);
+    request.setAttribute("userName", userName);
+
+    request.getRequestDispatcher("users.jsp").forward(request, response);
+}
+else if(userValidate.equals("Standard"))
+{
+   
+
+    HttpSession session = request.getSession();
+    session.setMaxInactiveInterval(10*60);
+    session.setAttribute("Standard", userName);
+    request.setAttribute("userName", userName);
+
+    request.getRequestDispatcher("index.jsp").forward(request, response);
+}
+else
+{
+    System.out.println("Error message = "+userValidate);
+    request.setAttribute("errMessage", userValidate);
+
+    request.getRequestDispatcher("login.jsp").forward(request, response);
+}
+        
+</script>
 </body>
 </html>

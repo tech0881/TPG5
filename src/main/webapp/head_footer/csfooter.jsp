@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css_files\footer.css">
+
 </head>
 <body>
 	<h3 class="h3">For More Information:</h3>
