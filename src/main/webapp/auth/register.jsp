@@ -47,13 +47,14 @@
     	 }
 </script>
       
-      <input type="text" name="fname" required placeholder="enter your firstname">
-      <input type="text" name="lname" required placeholder="enter your middlename">
-      <input type="text" name="lname" required placeholder="enter your lastname">
-      <input type="text" name="username" required placeholder="enter your username">
-      <input type="text" name="email" required placeholder="enter your email">
-      <input type="password" name="password" id="password" required placeholder="enter your password" onkeyup='check();'/>
-      <input type="password" name="cpassword" id="cpassword" placeholder="confirm your password" onkeyup='check();'/><span id='message'></span>
+      <input type="text" name="fname" required placeholder="Enter your first name">
+      <input type="text" name="lname" required placeholder="Enter your middle name">
+      <input type="text" name="lname" required placeholder="Enter your last name">
+      <input type="text" name="username" required placeholder="Enter your username">
+      <input type="text" name="email" required placeholder="Enter your email address">
+      <input type="password" name="password" id="password" required placeholder="Enter your password" onkeyup='check();'/>
+      <input type="password" name="cpassword" id="cpassword" placeholder="Confirm your password" onkeyup='check();'/><span id='message'></span>
+      
       
  		
  
