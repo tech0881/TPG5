@@ -23,7 +23,7 @@
          
       </select>
       
-      <input type="text" id="inputbox" class="question" required placeholder="enter your security question">
+      <input type="text" id="inputbox" class="question" required placeholder="Enter your security question">
      
 
       

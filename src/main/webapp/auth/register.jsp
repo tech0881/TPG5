@@ -54,11 +54,7 @@
       <input type="text" name="email" required placeholder="Enter your email address">
       <input type="password" name="password" id="password" required placeholder="Enter your password" onkeyup='check();'/>
       <input type="password" name="cpassword" id="cpassword" placeholder="Confirm your password" onkeyup='check();'/><span id='message'></span>
-      
-      
- 		
- 
-      
+           
 	<select name="user_type">
          <option value="user">standard</option>
          <option value="power">power users</option>
