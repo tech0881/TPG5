@@ -41,15 +41,6 @@
 		document.getElementById("ul_sub_menu").style.display="none";
 		}
 	}
-	
-	
-	
-	
 	</script>
-<title></title>
 </head>
-<body>
-
-</body>
-
 </html>

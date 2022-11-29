@@ -47,7 +47,8 @@
     	 }
 </script>
       
-       <input type="text" name="fname" required placeholder="enter your firstname">
+      <input type="text" name="fname" required placeholder="enter your firstname">
+      <input type="text" name="lname" required placeholder="enter your middlename">
       <input type="text" name="lname" required placeholder="enter your lastname">
       <input type="text" name="username" required placeholder="enter your username">
       <input type="text" name="email" required placeholder="enter your email">
@@ -66,9 +67,7 @@
 
       <select class="ques">
          <option value="1">What are your last four digits of phone number?</option>
-         <option value="2">What is your name of your first pet?</option>
-       
-         
+         <option value="2">What is your name of your first pet?</option> 
       </select>
       
       <input type="text" id="inputbox" class="question" required placeholder="enter your security question">

@@ -4,16 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Group Project</title>
-
+<title>User View</title>
 <link rel="stylesheet" href="../css_files/css_homepage.css">
 <link rel="stylesheet" href="../css_files/css_home.css">
-<%@ include file="csheader.jsp" %>
-<%@ include file="csmainheader.jsp" %>
+<link rel="stylesheet" href="../css_files/footer.css">
+<%@ include file="../head_footer/csheader.jsp" %>
+<%@ include file="../head_footer/csmainheader.jsp" %>
 </head>
 <img src="../images/picture1.jpg" width=1920 height= 700>
+<footer><%@ include file="../head_footer/csfooter.jsp" %></footer>
 
-<footer><%@ include file="csfooter.jsp" %></footer>
 
 </html>
 

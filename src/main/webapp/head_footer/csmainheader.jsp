@@ -8,7 +8,7 @@
 <body>
 	<nav class="nav_menu">
 		<ul class="nav_ul_list">
-			<li class="nav_ul_list_li"><a href="" title="Home page">Home</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/" title="Home page">Home</a></li>
 			
 			<li class="nav_ul_list_li"><a href="" title="Members">Members</a>
 				<ul class="nav_ul_list_li_ul">
