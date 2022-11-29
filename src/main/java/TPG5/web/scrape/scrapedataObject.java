@@ -13,6 +13,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import TPG5.web.dbConnect;
+import TPG5.web.model.Mscrape;
 
 public class scrapedataObject {
 	dbConnect conn = new dbConnect("tpg5");
@@ -43,7 +44,7 @@ public class scrapedataObject {
 				listdt.add(dt);
 			}
 			Scanner scanner_src_dt = new Scanner(listdt.get(02).toString());
-			Scanner scanner_target_dt = new Scanner(listdt.get(09).toString());
+			Scanner scanner_target_dt = new Scanner(listdt.get(10).toString());
 			scanner_src_dt.useDelimiter(" ");
 			while(scanner_src_dt.hasNext()) {
 				arr_hack_info.add(scanner_src_dt.next().toString());
@@ -136,8 +137,8 @@ public class scrapedataObject {
 		}
 		
 	}
-	public ArrayList<scrape_wcontent> getcyber_attack() {
-		ArrayList<scrape_wcontent> ddosList = new ArrayList<scrape_wcontent>();
+	public ArrayList<Mscrape> getcyber_attack() {
+		ArrayList<Mscrape> ddosList = new ArrayList<Mscrape>();
 		String selectSQL = "SELECT * FROM cyber_attacks";
 		try {
 			stmt = connection.createStatement();
@@ -152,7 +153,7 @@ public class scrapedataObject {
 		}
 		return ddosList;
 	}
-	public void ddod_archive(ArrayList<scrape_wcontent> ddosList) {
+	public void ddod_archive(ArrayList<Mscrape> ddosList) {
 		String qry_webdt = "SELECT * FROM cyber_archive";
 		try {
 			stmt = connection.createStatement();
@@ -166,13 +167,13 @@ public class scrapedataObject {
 			System.out.println(e);
 			System.out.println("Error");
 		}
-		for(int i=0; i<ddosList.size; i++) {
-			scrape_wcontent element = ddosList.get(i);
+		for(int i=0; i<ddosList.size(); i++) {
+			Mscrape element = ddosList.get(i);
 			element.getSrcCountry();
-			element.getSrcNoOfAttack();
+			element.getSrcNoOfAttacks();
 			element.getSrc_percent();
 			element.getDesCountry();
-			element.getDesNoOfAttack();
+			element.getDesNoOfAttacks();
 			element.getDes_percent();
 			element.getNyear();
 		}
