@@ -39,5 +39,14 @@
     <servlet-name>Register</servlet-name>
     <url-pattern>/Register</url-pattern>
   </servlet-mapping>
-
+  <servlet>
+    <description></description>
+    <display-name>forgot</display-name>
+    <servlet-name>forgot</servlet-name>
+    <servlet-class>TPG5.web.auth.forgot</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>forgot</servlet-name>
+    <url-pattern>/forgot</url-pattern>
+  </servlet-mapping>
 </web-app>
