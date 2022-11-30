@@ -40,11 +40,11 @@
 				</ul>
 			</li>
 			<li class="nav_ul_list_li"><a href="http://www.google.com" title="Search">Search</a></li>
-			<li class="nav_ul_list_li"><a href="" title="Contact">Contact</a>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/contact.jsp" title="Contact">Contact</a>
 
 			</li>
-			<li class="nav_ul_list_li"><a href="" title="About Us">About Us</a></li>
-			<li class="nav_ul_list_li"><a href="" title="Help">Help</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/aboutus.jsp" title="About Us">About Us</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/help.jsp" title="Help">Help</a></li>
 		</ul>
 	</nav>
 
@@ -76,8 +76,8 @@ if(answer.value == 'admin') {
 }; 
 
 </script>
-      <input type="text" name="username" required placeholder="Enter your username">
-      <input type="password" name="password" required placeholder="Enter your password">
+      <input type="text" name="username" required placeholder="enter your username">
+      <input type="password" name="password" required placeholder="enter your password">
       
 	<select name="user_type" onchange="enableBrand(this)">
          <option value="user">standard</option>
@@ -93,7 +93,7 @@ if(answer.value == 'admin') {
          
       </select>
       
-      <input type="text" id="inputbox" class="question" required placeholder="Enter your security question">
+      <input type="text" id="inputbox" class="question" required placeholder="enter your security question">
      
 
       
@@ -108,4 +108,3 @@ if(answer.value == 'admin') {
 </body>
 
 </html>
-
