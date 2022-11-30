@@ -76,8 +76,8 @@ if(answer.value == 'admin') {
 }; 
 
 </script>
-      <input type="text" name="username" required placeholder="enter your username">
-      <input type="password" name="password" required placeholder="enter your password">
+      <input type="text" name="username" required placeholder="Enter your username">
+      <input type="password" name="password" required placeholder="Enter your password">
       
 	<select name="user_type" onchange="enableBrand(this)">
          <option value="user">standard</option>
@@ -93,7 +93,7 @@ if(answer.value == 'admin') {
          
       </select>
       
-      <input type="text" id="inputbox" class="question" required placeholder="enter your security question">
+      <input type="text" id="inputbox" class="question" required placeholder="Enter your security question">
      
 
       

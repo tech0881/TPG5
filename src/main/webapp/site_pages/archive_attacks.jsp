@@ -5,6 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
+<link rel="stylesheet" href="../css_files/archive_attacks.css">
+
 <title>Archive Attacks</title>
 </head>
 <body>
@@ -33,6 +35,9 @@
 			
 		</ul>
 	</nav>
-	
 </body>
+<body>
+	<div class="archive_attacks"><h1>Archive Attacks</h1></div>	
+</body>
+
 </html>

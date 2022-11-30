@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
+<link rel="stylesheet" href="../css_files/user_dt_update.css">
 <title>Added Articles</title>
 </head>
 <body>
@@ -33,5 +34,8 @@
 			<li class="nav_ul_list_li"><a href="site_pages/help.jsp" title="Help">Help</a></li>
 		</ul>
 	</nav>
+</body>
+<body>
+	<div class="user"><h1>User Data Update</h1></div>
 </body>
 </html>

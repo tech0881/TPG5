@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.user
+{
+	text-align: center;
+	padding-top: 2rem;
+}
+html
+{
+	background-color: lightgrey;
+}
