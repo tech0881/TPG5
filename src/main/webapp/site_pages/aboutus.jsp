@@ -88,10 +88,10 @@ tr:nth-child(even) {
   
   <tr>
     <td>Johan Westcarr-Wilson</td>
-    <td></td>
+    <td>N/A</td>
     <td>Computer Science</td>
     <td>Barry University</td>
-    <td></td>
+    <td>N/A</td>
   </tr>
 </table>
 	
