@@ -66,14 +66,14 @@
          <option value="admin">administrator</option>
      </select>
 
-      <select class="ques">
-         <option value="1">What are your last four digits of phone number?</option>
-         <option value="2">What is your name of your first pet?</option>
+      <select name="ques">
+         <option value="What are your last four digits of phone number?">What are your last four digits of phone number?</option>
+         <option value="What is your name of your first pet?">What is your name of your first pet?</option>
        
          
       </select>
       
-      <input type="text" id="inputbox" class="question" required placeholder="enter your security question">
+      <input type="text" name="inputbox" class="question" required placeholder="enter your security question">
      
          
         

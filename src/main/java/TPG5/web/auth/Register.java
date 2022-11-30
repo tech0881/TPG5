@@ -20,10 +20,10 @@ public class Register extends HttpServlet {
 		pwd = request.getParameter("password");
 		rpwd = request.getParameter("password");
 		uaccess = request.getParameter("user_type");
-		q1 = request.getParameter("");
-		ans1 = request.getParameter("");
-		q2 = request.getParameter("");
-		ans2 = request.getParameter("");
+		q1 = request.getParameter("ques");
+		ans1 = request.getParameter("inputbox");
+//		q2 = request.getParameter("seq_question");
+//		ans2 = request.getParameter("inputbox");
 		
 		//Testing
 		System.out.println(email);
