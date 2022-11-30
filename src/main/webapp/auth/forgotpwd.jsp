@@ -23,7 +23,7 @@
          
       </select>
       
-      <input type="text" id="inputbox" class="question" required placeholder="Enter your security question">
+      <input type="text" id="inputbox" class="question" required placeholder="enter your security question">
      
 
       
@@ -36,8 +36,38 @@
                 fieldConfirmPassword.setCustomValidity("");
             }
         }
-        
+       function checkmatch(fieldConfirm) 
 </script>
+<%
+  String UserName=request.getParameter("UserName");
+//session.putValue("userid",userid);
+  String password=request.getParameter("password");
+  if(UserName==null || password==null){
+    out.println("<p style='color:Red;'>Enter UserName and Password!</p>");
+  }
+  else if("".equals(UserName) || "".equals(password)){
+    out.println("<p style='color:Red;'>Enter UserName and Password!</p>");
+  }
+  else{
+      try{
+          Class.forName("com.mysql.jdbc.Driver");
+          java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3080/LoginDetails","root","root123");
+          Statement st= con.createStatement();
+          ResultSet rs=st.executeQuery("select * from Users where UserName='"+UserName+"' and password='"+password+"'");
+          if(rs.next()){
+             RequestDispatcher req = (RequestDispatcher) request.getRequestDispatcher("KeyBoard.html");
+            req.forward(request, response);//out.println("Welcome " +UserName);
+            st.close();
+            con.close();
+          }
+          else{
+            out.println("<p style='color:Red;'>Invalid username or password</p>");
+          }
+       }
+       catch(Exception e){
+       }
+  }
+%>
 <%
 String username =request.getParameter("username");
 String password = request.getParameter("password");
