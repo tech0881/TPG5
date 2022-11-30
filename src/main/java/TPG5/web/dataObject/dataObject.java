@@ -54,7 +54,7 @@ public class dataObject {
 				prestmt.setString(4, "admin");
 				prestmt.setString(5, hash_pwd);
 				prestmt.setString(6, "admin@lab.instructor.com"); //Change the email to one that belongs to us(or one person)
-				prestmt.setString(7, "always_active");
+				prestmt.setString(7, "admin");
 				prestmt.setString(8, pwdQ1);
 				prestmt.setString(9, ans1);
 				prestmt.setString(10, pwdQ2);
@@ -115,18 +115,18 @@ public ArrayList member_login(String username, String password) {
     Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tpg5", "root", "789456123");
     //selecting username from users table
 
-    
-    Statement stmt = con.createStatement();
-    ResultSet ra = stmt.executeQuery("SELECT * FROM users");
     String hashpwd = conn.getSHA_pwd(password);
+    Statement stmt = con.createStatement();
+    ResultSet rs = stmt.executeQuery("SELECT * FROM users where u_name='"+username+"' and u_pwd='"+hashpwd+"'");
     
-	    while (ra.next()) 
+    
+	    while (rs.next()) 
 	    {
-	    	if (username.equals(ra.getString("u_name")) && hashpwd.equals(ra.getString("u_pwd")))
+	    	if (username.equals(rs.getString("u_name")) && hashpwd.equals(rs.getString("u_pwd")))
 	    	{
-	    		up.add(ra.getString("f_name").toString());
-				up.add(ra.getString("l_name").toString());    //set the "" to whatever the appropriate columns are titled
-				up.add(ra.getString("u_access").toString());
+	    		up.add(rs.getString("f_name").toString());
+				up.add(rs.getString("l_name").toString());    //set the "" to whatever the appropriate columns are titled
+				up.add(rs.getString("u_access").toString());
 	    	}
 	    	else {}
 	    }
