@@ -47,8 +47,8 @@ if(session.getAttribute("user-laccess") == null && session.getAttribute("u_name"
 				</ul>
 			</li>		
 			<li class="nav_ul_list_li"><a href="http://www.google.com" title="Search">Search</a></li>
-			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/contact.jsp" title="Contact">Contact</a></li>
-			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/archive_attacks.jsp" title="DDoS Attacks">DDoS Attacks</a>
+			<li class="nav_ul_list_li"><a href="../site_pages/contact.jsp" title="Contact">Contact</a></li>
+			<li class="nav_ul_list_li"><a href="../site_pages/archive_attacks.jsp" title="DDoS Attacks">DDoS Attacks</a>
 				<ul class="nav_ul_list_li_ul_">
 					<li><a href="../site_pages/user_dt_update.jsp">Add an Article</a></li>
 					<li><a href="../site_pages/monthly_attack.jsp">Monthly Attacks</a></li>
