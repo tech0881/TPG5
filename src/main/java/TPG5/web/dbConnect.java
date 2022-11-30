@@ -15,15 +15,17 @@ public class dbConnect {
 	public dbConnect(String namedb) { 
 		this.userdb = namedb;
 		this.userdb = "root";
-		this.passworddb = "123456789";
+		this.passworddb = "789456123";
 	}
 
 public Connection str_connection() {
 	try {
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		conn = DriverManager.getConnection(str_connection, userdb, passworddb);
 	}
-	catch (SQLException e) {
+	catch (SQLException  | ClassNotFoundException e ) {
 		System.out.println(e);
+		e.printStackTrace();
 	}
 	return conn;
 	

@@ -33,7 +33,7 @@
 	
 <div class="form-container">
 
-   <form action="Register" method="post">
+   <form action="..//Register" method="post">
   
       <h3>register now</h3>
        <script type="text/javascript">

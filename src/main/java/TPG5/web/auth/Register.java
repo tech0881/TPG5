@@ -27,20 +27,21 @@ public class Register extends HttpServlet {
 		ans2 = request.getParameter("");
 
 		dataObject data = new dataObject();
-		mRegistration set = new mRegistration();
-		set.setemail(email);
-		set.setfname(fname);
-		set.setlname(lname);
-		set.setusrname(uname);
-		set.setpassword(pwd);
-		set.setrootpass(rpwd);
-		set.setuseraccess(uaccess);
-		set.setoboSq1(q1);
-		set.settxtans1(ans1);
-		set.setoboSq2(q2);
-		set.setttxtans2(ans2);
+//		mRegistration set = new mRegistration();
+//		set.setemail(email);
+//		set.setfname(fname);
+//		set.setlname(lname);
+//		set.setusrname(uname);
+//		set.setpassword(pwd);
+//		set.setrootpass(rpwd);
+//		set.setuseraccess(uaccess);
+//		set.setoboSq1(q1);
+//		set.settxtans1(ans1);
+//		set.setoboSq2(q2);
+//		set.setttxtans2(ans2);
 
 		System.out.println("Works!");
-		mRegistration set2 = data.member_register(fname, mname, lname, uname, pwd, rpwd, email, uaccess, q1, q2, ans1, ans2);
+		data.member_register(fname, mname, lname, uname, pwd, rpwd, email, uaccess, q1, q2, ans1, ans2);
+		response.sendRedirect("auth/login.jsp");
 	}
 }

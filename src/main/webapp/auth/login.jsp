@@ -51,7 +51,7 @@
 
    <div class="form-container">
    
-   <form action="Login" method="post">
+   <form action="..//Login" method="post">
       <h3>login now</h3>
       
       <?jsp

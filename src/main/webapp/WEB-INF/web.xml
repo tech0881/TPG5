@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="5.0">
-  <servlet>
-    <description></description>
-    <display-name>LoginBean</display-name>
-    <servlet-name>LoginBean</servlet-name>
-    <servlet-class>TPG5.web.auth.LoginBean</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>LoginBean</servlet-name>
-    <url-pattern>/LoginBean</url-pattern>
-  </servlet-mapping>
   <display-name>TPG5</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -19,26 +9,6 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>LoginDao</display-name>
-    <servlet-name>LoginDao</servlet-name>
-    <servlet-class>TPG5.web.auth.LoginDao</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>LoginDao</servlet-name>
-    <url-pattern>/LoginDao</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>DBConnnection</display-name>
-    <servlet-name>DBConnnection</servlet-name>
-    <servlet-class>TPG5.web.auth.DBConnnection</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>DBConnnection</servlet-name>
-    <url-pattern>/DBConnnection</url-pattern>
-  </servlet-mapping>
   <servlet>
     <description></description>
     <display-name>Login</display-name>
@@ -69,4 +39,5 @@
     <servlet-name>Register</servlet-name>
     <url-pattern>/Register</url-pattern>
   </servlet-mapping>
+
 </web-app>
