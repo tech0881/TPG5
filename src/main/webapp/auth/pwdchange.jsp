@@ -19,9 +19,11 @@
          
 <form action="@{/change_password}" method="post" style="max-width: 350px; margin: 0 auto;">
 <div class="border border-secondary rounded p-3">
+<script type="text/javascript">
     <div if="${message != null}" class="m-3">
         <p class="text-danger">[[${message}]]</p>
-    </div>       
+    </div>
+    </script>
     <div>
         <p>
             <input type="password" name="oldPassword" class="form-control"

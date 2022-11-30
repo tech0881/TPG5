@@ -30,41 +30,41 @@ if(session.getAttribute("usr_laccess")==null)
 	</div>
 <%@ include file="../head_footer/csfooter.jsp" %>
 <script type="text/javascript">
-if(userValidate.equals("Admin"))
+if(userValidate.equals("admin"))
 {
 
     HttpSession session = request.getSession(); //Creating a session
-    session.setAttribute("Admin", userName); //setting session attribute
+    session.setAttribute("admin", userName); //setting session attribute
     request.setAttribute("userName", userName);
     request.getRequestDispatcher("users.jsp").forward(request, response);
 }
-else if(userValidate.equals("Manager"))
+else if(userValidate.equals("manager"))
 {
    
 
     HttpSession session = request.getSession();
-    session.setAttribute("Manager", userName);
+    session.setAttribute("manager", userName);
     request.setAttribute("userName", userName);
 
     request.getRequestDispatcher("users.jsp").forward(request, response);
 }
-else if(userValidate.equals("Power User"))
+else if(userValidate.equals("power_user"))
 {
    
 
     HttpSession session = request.getSession();
-    session.setAttribute("Power User", userName);
+    session.setAttribute("power_user", userName);
     request.setAttribute("userName", userName);
 
     request.getRequestDispatcher("users.jsp").forward(request, response);
 }
-else if(userValidate.equals("Standard"))
+else if(userValidate.equals("standard"))
 {
    
 
     HttpSession session = request.getSession();
     session.setMaxInactiveInterval(10*60);
-    session.setAttribute("Standard", userName);
+    session.setAttribute("standard", userName);
     request.setAttribute("userName", userName);
 
     request.getRequestDispatcher("index.jsp").forward(request, response);

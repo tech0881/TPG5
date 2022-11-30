@@ -60,8 +60,8 @@
  
       
 	<select name="user_type">
-         <option value="user">standard</option>
-         <option value="power">power users</option>
+         <option value="standard">standard</option>
+         <option value="power_user">power users</option>
          <option value="manager">manager</option>
          <option value="admin">administrator</option>
      </select>

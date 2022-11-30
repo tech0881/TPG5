@@ -30,14 +30,19 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/main/webapp/images/TPG5.jpg</name>
+			<type>1</type>
+			<location>D:/project_com_engi/workspace/TPG5/src/main/webapp/images/TPG5.jpg</location>
+		</link>
+		<link>
 			<name>src/main/webapp/images/picture.jpg</name>
 			<type>1</type>
-			<location>/home/jroscoe/TPG5-workspace/TPG5/src/main/webapp/images/picture.jpg</location>
+			<location>D:/project_com_engi/workspace/TPG5/src/main/webapp/images/picture.jpg</location>
 		</link>
 		<link>
 			<name>src/main/webapp/images/picture1.jpg</name>
 			<type>1</type>
-			<location>/home/jroscoe/TPG5-workspace/TPG5/src/main/webapp/images/picture1.jpg</location>
+			<location>D:/project_com_engi/workspace/TPG5/src/main/webapp/images/picture1.jpg</location>
 		</link>
 	</linkedResources>
 </projectDescription>
