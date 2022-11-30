@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/box.css">
-<%@ include file="../head_footer/cshead.jsp" %>
+
 <title>Login Form</title>
 <style type="text/css">
 .ques {display: none;}
@@ -28,6 +28,27 @@
 
 </head>
 <body>
+<nav class="nav_menu">
+		<ul class="nav_ul_list">
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/" title="Home page">Home</a></li>
+			
+			<li class="nav_ul_list_li"><a href="" title="Members">Members</a>
+				<ul class="nav_ul_list_li_ul">
+					<li><a href="http://localhost:8080/TPG5/auth/login.jsp">Login</a></li>
+					<li><a href="http://localhost:8080/TPG5/auth/register.jsp">Register</a></li>
+					<li><a href="http://localhost:8080/TPG5/auth/login.jsp">Logout</a></li>
+				</ul>
+			</li>
+			<li class="nav_ul_list_li"><a href="http://www.google.com" title="Search">Search</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/contact.jsp" title="Contact">Contact</a>
+
+			</li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/aboutus.jsp" title="About Us">About Us</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/help.jsp" title="Help">Help</a></li>
+		</ul>
+	</nav>
+
+
    <div class="form-container">
    
    <form action="..//Login" method="post">
@@ -55,8 +76,8 @@ if(answer.value == 'admin') {
 }; 
 
 </script>
-      <input type="text" name="username" required placeholder="Enter your username">
-      <input type="password" name="password" required placeholder="Enter your password">
+      <input type="text" name="username" required placeholder="enter your username">
+      <input type="password" name="password" required placeholder="enter your password">
       
 	<select name="user_type" onchange="enableBrand(this)">
          <option value="user">standard</option>

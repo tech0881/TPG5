@@ -4,19 +4,19 @@
 <html lang="en">
 
 <head>
-<title>Change Expired Password</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/box.css">
-<link rel="stylesheet" href="../css_files/pwdchange.css">
-<%@ include file="../head_footer/cshead.jsp" %>
+
+
+
 </head>
 
 <body>
 <div>
-    <h2 class="head">Change Your Expired Password</h2>
+    <h2>Change Your Expired Password</h2>
 </div>
-<br>
+         
 <form action="@{/change_password}" method="post" style="max-width: 350px; margin: 0 auto;">
 <div class="border border-secondary rounded p-3">
 <script type="text/javascript">
