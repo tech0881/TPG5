@@ -105,7 +105,9 @@ public class dataObject {
 		    }
 		}
 		
-		catch(Exception ex) { ex.printStackTrace();}
+		catch(Exception ex) { 
+				ex.printStackTrace();
+			}
 	}
 public ArrayList member_login(String username, String password) {
 	ArrayList up = new ArrayList();
@@ -117,7 +119,7 @@ public ArrayList member_login(String username, String password) {
 
     String hashpwd = conn.getSHA_pwd(password);
     Statement stmt = con.createStatement();
-    ResultSet rs = stmt.executeQuery("SELECT * FROM users where u_name='"+username+"' and u_pwd='"+hashpwd+"'");
+    ResultSet rs = stmt.executeQuery("SELECT * FROM users");
     
     
 	    while (rs.next()) 
@@ -132,7 +134,9 @@ public ArrayList member_login(String username, String password) {
 	    }
 	
 	}
-	catch(Exception ex) { ex.printStackTrace(); }
+	catch( Exception ex) { 
+			ex.printStackTrace(); 
+		}
 	return up;
 	}
 }
