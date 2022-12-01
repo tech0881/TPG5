@@ -11,7 +11,6 @@
 <title>Forgot Password</title>
 </head>
 <body>
-
 <div class="form-container">
 <form action="" method="post">
 

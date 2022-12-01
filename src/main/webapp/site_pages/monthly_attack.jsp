@@ -12,6 +12,7 @@
 </head>
 <body>
 	<div class="mon_attacks"><h1>Monthly Attacks</h1></div>	
+	<br>
 	<table class="Source">
 		<thread>
 			<tr>
