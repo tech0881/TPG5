@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>About Us</title>
-<link rel="stylesheet" href="../css_files/css_home.css">
+<link rel="stylesheet" href="../css_files/csheader.css">
 <link rel="stylesheet" href="../css_files/login.css">
 <link rel="stylesheet" href="../css_files/aboutus.css">
 <%@ include file="../head_footer/cshead.jsp" %>
