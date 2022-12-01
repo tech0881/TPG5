@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-	<nav class="nav_menu">
+<body>
+<nav class="nav_menu">
 		<ul class="nav_ul_list">
 			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/" title="Home page">Home</a></li>
 			
@@ -27,4 +28,5 @@
 			</li>			
 		</ul>
 	</nav>
+</body>
 </html>
