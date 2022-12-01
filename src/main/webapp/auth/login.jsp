@@ -59,10 +59,10 @@ if(answer.value == 'admin') {
       <input type="password" name="password" required placeholder="Enter your password">
       
 	<select name="user_type" onchange="enableBrand(this)">
-         <option value="user">standard</option>
-         <option value="power">power users</option>
-         <option value="manager">manager</option>
-         <option value="admin">administrator</option>
+         <option value="user">Standard</option>
+         <option value="power">Power Users</option>
+         <option value="manager">Manager</option>
+         <option value="admin">Administrator</option>
      </select>
 
       <select id="seq_question" class="ques">
@@ -72,7 +72,7 @@ if(answer.value == 'admin') {
          
       </select>
       
-      <input type="text" id="inputbox" class="question" required placeholder="enter your security question">
+      <input type="text" id="inputbox" class="question" required placeholder="Enter your security question">
      
 
       

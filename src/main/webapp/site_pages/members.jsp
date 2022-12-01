@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/cs_view_attack.css">
 <%@include file="../head_footer/members_header.jsp" %>
+<%@include file="../head_footer/csmainheader.jsp" %>
 </head>
 <body>
 <%

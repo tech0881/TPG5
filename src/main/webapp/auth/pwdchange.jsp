@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-<title>Change Expired Password</title>
+<title>Change Password</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/box.css">
@@ -14,7 +14,7 @@
 
 <body>
 <div>
-    <h2 class="head">Change Your Expired Password</h2>
+    <h2 class="head">Change Password</h2>
 </div>
 <br>
 <form action="@{/change_password}" method="post" style="max-width: 350px; margin: 0 auto;">

@@ -31,7 +31,7 @@ public class Login extends HttpServlet {
 			session.setAttribute("usr_laccess", usr_laccess);
 			scrapedataObject update_scrape_tbl = new scrapedataObject();
 			update_scrape_tbl.get_web_data();
-			res.sendRedirect("site_pages/members.jsp");
+			res.sendRedirect("../site_pages/members.jsp");
 		}
 		else
 		{
