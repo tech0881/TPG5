@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/monthly_attack.css">
 <%@ include file="../head_footer/csmainheader.jsp" %>
-
 <title>Monthly Attacks</title>
 </head>
 <body>
