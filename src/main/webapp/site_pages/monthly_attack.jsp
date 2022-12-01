@@ -13,20 +13,75 @@
 <body>
 	<div class="mon_attacks"><h1>Monthly Attacks</h1></div>	
 	<br>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 	<table class="Source">
-		<thread>
-			<tr>
-				<th>Country Source</th>
-				<th>Number of Attacks</th>
-				<th>Percentage</th>
-				<th>Country Destination</th>
-				<th>Number of Attacks</th>
-				<th>Percentage</th>
-				<th>Month and Year</th>
-			</tr>
-		</thread>
-		<tbody></tbody>
+<thread>
+	<tr>
+		<th>Country Source</th>
+		<th>Number of Attacks</th>
+		<th>Percentage</th>
+		<th>Country Destination</th>
+		<th>Number of Attacks</th>
+		<th>Percentage</th>
+		<th>Month and Year</th>
+	</tr>
+	
+	  <tr class="data">
+	    <td> </td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>  
+	  </tr>
+	  
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	  
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	  
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	</thread>
 	</table>
-</body>
 
 </html>
