@@ -27,16 +27,17 @@
      
 
       
-      <input type="submit" name="submit" value="login now" class="form-btn">
+      <p><input type="submit" name="submit" value="login now" class="form-btn"> <a href="../auth/forgot.java"></a></p>
 
 
 
 </form>
 <div class="back-btn">
  <a href="http://localhost:8080/TPG5/auth/login.jsp">
-      <button class ="back-btn">Back</button>
+      <button class="back-btn">Back</button>
       </a>  
 </div> 
+
 </div>
 
 
