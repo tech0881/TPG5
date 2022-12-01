@@ -14,25 +14,6 @@
 <body class="about">
 	<div class="aboutus"><h1>About Us</h1></div>
 </body>
-
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-
 <body class="table">
 	<table>
   <tr>
@@ -45,7 +26,7 @@ tr:nth-child(even) {
   </tr>
   <tr>
     <td>Jaylan Roscoe </td>
-    <td>Front End Developer</td>
+    <td>Front End Developer, Debugger, Code Manager</td>
     <td>Computer Information Science</td>
     <td>Barry University</td>
     <td>Junior</td>
