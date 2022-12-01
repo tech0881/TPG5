@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/box.css">
 <link rel="stylesheet" href="../css_files/contact.css">
-
+<%@ include file="../head_footer/cshead.jsp" %>
 <title>Forgot Password</title>
 </head>
 <body>

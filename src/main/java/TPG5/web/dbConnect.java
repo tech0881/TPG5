@@ -15,7 +15,7 @@ public class dbConnect {
 	public dbConnect(String namedb) { 
 		this.userdb = namedb;
 		this.userdb = "root";
-		this.passworddb = "789456123";
+		this.passworddb = "Jkr#18282002$";
 	}
 
 public Connection str_connection() {

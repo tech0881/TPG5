@@ -114,7 +114,7 @@ public ArrayList member_login(String username, String password) {
 	try 
 	{
 	Class.forName("com.mysql.cj.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tpg5", "root", "789456123");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tpg5", "root", "Jkr#18282002$");
     //selecting username from users table
 
     String hashpwd = conn.getSHA_pwd(password);
