@@ -139,6 +139,22 @@ public ArrayList member_login(String username, String password) {
 		}
 	return up;
 	}
-}
 
 
+public static String getPassword(String uname,String q1,String ans1,String q2,String ans2) throws Exception {
+	String sql = "SELECT u_pwd FROM users WHERE u_name=? AND u_sql=? AND u_ans1=? AND u_sql2=? AND u_ans2=?";
+	Connection con = .getConnection();
+	PreparedStatement ps = con.prepareStatement(sql);
+	ps.setString(1, uname);
+	ps.setString(2, q1);
+	ps.setString(3, ans1);
+	ps.setString(2, q2);
+	ps.setString(3, ans2);
+	
+	ResultSet rs =ps.executeQuery();
+	String pwd = "";
+	if(rs.next()) {
+		pwd = rs.getString("u_pwd");
+	}
+	
+}}

@@ -46,5 +46,10 @@ public String getSHA_pwd(String pass) throws NoSuchAlgorithmException { //hashin
 		return "";
 	}
 	}
+
+public static Connection getConnection() {
+	// TODO Auto-generated method stub
+	return null;
+}
 }
 
