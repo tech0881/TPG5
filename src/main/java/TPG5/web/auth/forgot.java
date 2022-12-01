@@ -2,6 +2,7 @@ package TPG5.web.auth;
 
 import java.io.IOException;
 
+import TPG5.web.dataObject.dataObject;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -26,7 +27,7 @@ public class forgot extends HttpServlet {
 		String ans2 = request.getParameter ("u_ans2");
 		
 		try {
-			String pwd = request.getPassword(uname, q1, ans1, q2, ans2);
+			String pwd = dataObject.getPassword(uname, q1, ans1, q2, ans2);
 			request.setAttribute("u_pwd",pwd);
 			RequestDispatcher rd = request.getRequestDispatcher("forgotpwd.jsp");
 			rd.forward(request, response);
