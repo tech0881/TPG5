@@ -17,7 +17,7 @@ table {
 td, th {
   border: 3px solid navy;
   text-align: center;
-  padding: 30px;
+  padding: 65px;
 }
 
 tr:nth-child(even) 
