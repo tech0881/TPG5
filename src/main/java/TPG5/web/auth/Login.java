@@ -1,5 +1,7 @@
 package TPG5.web.auth;
+
 import java.io.IOException;
+
 import java.util.ArrayList;
 import TPG5.web.model.mRegistration;
 import TPG5.web.scrape.scrapedataObject;
@@ -18,7 +20,8 @@ public class Login extends HttpServlet {
 		String password= req.getParameter("password");
 		mLoginFields.setusrname(username);
 		mLoginFields.setpassword(password);
-		ArrayList user_login = new dataObject().member_login(username, password);
+		dataObject ob = new dataObject();
+		ArrayList user_login = ob.member_login(username, password);
 		if(user_login.size()>0)
 		{
 			String usr_fname = user_login.get(0).toString();

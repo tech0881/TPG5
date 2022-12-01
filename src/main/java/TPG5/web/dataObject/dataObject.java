@@ -139,23 +139,28 @@ public ArrayList member_login(String username, String password) {
 		}
 	return up;
 	}
-
-
-public static String getPassword (String uname,String q1,String ans1,String q2,String ans2) throws Exception {
-	String sql = "SELECT u_pwd FROM users WHERE u_name=? AND u_sql=? AND u_ans1=? AND u_sql2=? AND u_ans2=?";
-	Connection con = dbConnect.getConnection();
+public static String getPassword(String uname, String q1, String ans1, String q2, String ans2) throws Exception{
+	String sql = "SELECT u_pwd FROM users WHERE u_name=? AND u_sql=? AND u_ans1 =? AND u_sql2=? AND u_ans2=?";
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tpg5", "root", "Jkr#18282002$");
 	PreparedStatement ps = con.prepareStatement(sql);
 	ps.setString(1, uname);
 	ps.setString(2, q1);
 	ps.setString(3, ans1);
-	ps.setString(2, q2);
-	ps.setString(3, ans2);
+	ps.setString(3, q2);
+	ps.setString(4, ans2);
 	
-	ResultSet rs =ps.executeQuery();
+	ResultSet rs = ps.executeQuery();
+	
 	String pwd = "";
 	if(rs.next()) {
 		pwd = rs.getString("u_pwd");
 	}
-	return pwd;
+	else {
+		pwd = "Error";
+	}
 	
-}}
+	return pwd;
+	} 
+}
+
+
