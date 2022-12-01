@@ -33,7 +33,7 @@ public class dataObject {
 		{
 			String hash_pwd = conn.getSHA_pwd(pwd);
 		   	Class.forName("com.mysql.cj.jdbc.Driver");
-		    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tpg5", "root", "789456123");
+		    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tpg5", "root", "Jkr#18282002$");
 		    int cnt = 0;
 		    Statement sta = con.createStatement();
 		    ResultSet rd = sta.executeQuery("SELECT COUNT(*) AS cnt FROM users");

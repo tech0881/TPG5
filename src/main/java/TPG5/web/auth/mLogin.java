@@ -49,8 +49,8 @@ public class mLogin extends HttpServlet {
 			session.setAttribute("usr_lname", usr_lname);
 			session.setAttribute("usr_laccess", usr_laccess);
 			System.out.println("After Att Set");
-			//scrapedataObject update_scrape_tbl = new scrapedataObject();
-			//update_scrape_tbl.get_web_data();
+			scrapedataObject update_scrape_tbl = new scrapedataObject();
+			update_scrape_tbl.get_web_data();
 			response.sendRedirect("../site_pages/members.jsp");
 		}
 		else
