@@ -143,7 +143,7 @@ public ArrayList member_login(String username, String password) {
 
 public static String getPassword(String uname,String q1,String ans1,String q2,String ans2) throws Exception {
 	String sql = "SELECT u_pwd FROM users WHERE u_name=? AND u_sql=? AND u_ans1=? AND u_sql2=? AND u_ans2=?";
-	Connection con = .getConnection();
+	Connection con = dbConnect.getConnection();
 	PreparedStatement ps = con.prepareStatement(sql);
 	ps.setString(1, uname);
 	ps.setString(2, q1);
