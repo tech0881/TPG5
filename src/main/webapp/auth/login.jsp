@@ -77,7 +77,7 @@ if(answer.value == 'admin') {
      
 
       
-      <input type="submit" name="submit" value="login now" class="form-btn">
+      <input type="submit" name="submit" value="login now"<a href="../TPG5.web.auth/Login.java" ></a>class="form-btn" >
       <p>don't have an account? <a href="register.jsp">register now</a></p>
     <p>Forgot password? <a href="forgotpwd.jsp">password?</a></p>
         
