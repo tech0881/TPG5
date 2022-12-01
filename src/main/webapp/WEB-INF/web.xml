@@ -49,4 +49,14 @@
     <servlet-name>forgot</servlet-name>
     <url-pattern>/forgot</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>mLogin</display-name>
+    <servlet-name>mLogin</servlet-name>
+    <servlet-class>TPG5.web.auth.mLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mLogin</servlet-name>
+    <url-pattern>/mLogin</url-pattern>
+  </servlet-mapping>
 </web-app>

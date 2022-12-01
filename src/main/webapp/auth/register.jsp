@@ -6,12 +6,31 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/box.css">
-<%@ include file="../head_footer/cshead.jsp" %>
 
  <title>Register Form</title>
 </head>
 
 <body>
+<nav class="nav_menu">
+		<ul class="nav_ul_list">
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/" title="Home page">Home</a></li>
+			
+			<li class="nav_ul_list_li"><a href="" title="Members">Members</a>
+				<ul class="nav_ul_list_li_ul">
+					<li><a href="http://localhost:8080/TPG5/auth/login.jsp">Login</a></li>
+					<li><a href="http://localhost:8080/TPG5/auth/register.jsp">Register</a></li>
+					<li><a href="http://localhost:8080/TPG5/auth/login.jsp">Logout</a></li>
+				</ul>
+			</li>
+			<li class="nav_ul_list_li"><a href="http://www.google.com" title="Search">Search</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/contact.jsp" title="Contact">Contact</a>
+
+			</li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/aboutus.jsp" title="About Us">About Us</a></li>
+			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/help.jsp" title="Help">Help</a></li>
+		</ul>
+	</nav>
+	
 <div class="form-container">
 
    <form action="..//Register" method="post">
@@ -30,22 +49,21 @@
     	 }
 </script>
       
-      <input type="text" name="fname" required placeholder="Enter your firstname">
-      <input type="text" name="mname" required placeholder="Enter your middlename">
-      <input type="text" name="lname" required placeholder="Enter your lastname">
-      <input type="text" name="username" required placeholder="Enter your username">
-      <input type="text" name="email" required placeholder="Enter your email">
-      <input type="password" name="password" id="password" required placeholder="Enter your password" onkeyup='check();'/>
-      <input type="password" name="cpassword" id="cpassword" placeholder="Confirm your password" onkeyup='check();'/><span id='message'></span>
+       <input type="text" name="fname" required placeholder="enter your firstname">
+      <input type="text" name="lname" required placeholder="enter your lastname">
+      <input type="text" name="username" required placeholder="enter your username">
+      <input type="text" name="email" required placeholder="enter your email">
+      <input type="password" name="password" id="password" required placeholder="enter your password" onkeyup='check();'/>
+      <input type="password" name="cpassword" id="cpassword" placeholder="confirm your password" onkeyup='check();'/><span id='message'></span>
       
  		
  
       
 	<select name="user_type">
-         <option value="standard">Standard</option>
-         <option value="power_user">Power users</option>
-         <option value="manager">Manager</option>
-         <option value="admin">Administrator</option>
+         <option value="standard">standard</option>
+         <option value="power_user">power users</option>
+         <option value="manager">manager</option>
+         <option value="admin">administrator</option>
      </select>
 
       <select name="ques">
@@ -55,7 +73,7 @@
          
       </select>
       
-      <input type="text" name="inputbox" class="question" required placeholder="Enter your security question">
+      <input type="text" name="inputbox" class="question" required placeholder="enter your security question">
      
          
         

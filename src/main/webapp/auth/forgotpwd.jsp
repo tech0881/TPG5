@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="../css_files/css_home.css">
 <link rel="stylesheet" href="../css_files/box.css">
 <link rel="stylesheet" href="../css_files/contact.css">
-<%@ include file="../head_footer/cshead.jsp" %>
+
 <title>Forgot Password</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
 <form action="" method="post">
 
 <button class ="form-btn">check</button>
-<input type="text" name="username" required placeholder="Enter your username">
+<input type="text" name="username" required placeholder="enter your username">
      <select id="seq_question" class="ques">
          <option value="1">What are your last four digits of phone number?</option>
          <option value="2">What is your name of your first pet?</option>
@@ -24,7 +24,7 @@
          
       </select>
       
-      <input type="text" id="inputbox" class="question" required placeholder="Enter your security question">
+      <input type="text" id="inputbox" class="question" required placeholder="enter your security question">
      
 
       

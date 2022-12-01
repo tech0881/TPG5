@@ -17,6 +17,7 @@
 					<li><a href="http://localhost:8080/TPG5/auth/login.jsp">Logout</a></li>
 				</ul>
 			</li>		
+			<li class="nav_ul_list_li"><a href="http://www.google.com" title="Search">Search</a></li>
 			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/contact.jsp" title="Contact">Contact</a></li>
 			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/archive_attacks.jsp" title="DDoS Attacks">DDoS Attacks</a>
 				<ul class="nav_ul_list_li_ul_">
@@ -27,7 +28,7 @@
 				</li>
 			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/aboutus.jsp" title="About Us">About Us</a></li>
 			<li class="nav_ul_list_li"><a href="http://localhost:8080/TPG5/site_pages/help.jsp" title="Help">Help</a></li>
-			<li class="nav_ul_list_li"><form method="GET" action="https://google.com/search"><input type="text" name="q" placeholder="Search..."/></form></li>			
+			
 		</ul>
 	</nav>
 </body>
