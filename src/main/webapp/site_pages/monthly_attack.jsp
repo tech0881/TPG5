@@ -13,23 +13,6 @@
 <body>
 	<div class="mon_attacks"><h1>Monthly Attacks</h1></div>	
 	<br>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 30px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
 	<table class="Source">
 <thread>
 	<tr>

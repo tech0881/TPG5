@@ -8,3 +8,23 @@ html
 {
 	background-color: lightgrey;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid navy;
+  text-align: center;
+  padding: 30px;
+}
+
+tr:nth-child(even) 
+{
+  background-color: white;
+}
+tr:nth-child(odd) 
+{
+  background-color: white;
+}
