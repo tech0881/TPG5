@@ -39,6 +39,20 @@
 <body>
 <body>
 	<div class="mon_attacks"><h1>Monthly Attacks</h1></div>	
+	<table class="Source">
+		<thread>
+			<tr>
+				<th>Country Source</th>
+				<th>Number of Attacks</th>
+				<th>Percentage</th>
+				<th>Country Destination</th>
+				<th>Number of Attacks</th>
+				<th>Percentage</th>
+				<th>Month and Year</th>
+			</tr>
+		</thread>
+		<tbody></tbody>
+	</table>
 </body>
 
 </html>
